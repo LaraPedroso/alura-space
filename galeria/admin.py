@@ -8,6 +8,7 @@ class listaImagens(admin.ModelAdmin):
     list_filter = ('categoria',)
     list_per_page = 10
     search_fields = ('nome',)
+    
 
 
 
